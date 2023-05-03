@@ -1,25 +1,36 @@
-# E-commrace
-## A Fullstack E-commrace website
-![projectsImage1](https://user-images.githubusercontent.com/96975519/232783511-d024acff-8164-4649-9da2-7b8fa1502ed0.jpeg)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-#### About the project:
-<li> The user can see products and rating and select from categories
- <li>The user can select and see all detailed description of the product
- <li>The user can add the product to the cart
- <li>The user can sign in from google
- <li>The user can place order and check out
-Iam using fakestore api to get the product lists
+## Getting Started
 
-### Build with
-<li>Next.js 13
-<li>Redux
-<li>Stripe
-<li>NextAuth
+First, run the development server:
 
-## Setup
-To run this project, install it locally using yarn:
-
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
 ```
-$ yarn
-$ yarn run dev
-```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

@@ -1,0 +1,59 @@
+.contactbar {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 15rem;
+  gap: 5rem;
+  align-items: center;
+  background-color: #913175;
+  max-width: 100%;
+  min-height: 5rem;
+  margin-top: 5rem;
+}
+.contactbar h3 {
+  color: #e9e8e8;
+  font-size: 1.56rem;
+}
+.contactbar-icon {
+  fill: white;
+  cursor: pointer;
+  margin-right: -20px;
+}
+.contact-input {
+  background-color: #e9e8e8;
+  max-height: 2.5em;
+  padding: 0.6em;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #e9e8e8;
+}
+.contact-input {
+  outline: 0;
+}
+.contact-btn {
+  background-color: #20262e;
+  color: #e9e8e8;
+  border-radius: 0px 5px 5px 0;
+  max-height: 2.5em;
+  padding: 0.6em;
+  cursor: pointer;
+  border: 1px solid #20262e;
+}
+@media (max-width: 768px) {
+  .contactbar {
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 0;
+    gap: 1rem;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .contactbar h3 {
+    font-size: 1.2rem;
+  }
+
+  .contact-input,
+  .contact-btn {
+    max-height: 3em;
+    padding: 1rem;
+  }
+}

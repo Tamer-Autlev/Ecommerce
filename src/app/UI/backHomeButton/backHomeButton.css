@@ -1,0 +1,21 @@
+.category-layout {
+  display: flex;
+}
+
+.back-btn {
+  width: 12.5rem;
+
+  background-color: inherit;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.3rem;
+
+  margin: 4rem 2rem;
+}
+.back-btn svg {
+  width: 40px;
+  height: 20px;
+}

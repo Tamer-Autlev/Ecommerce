@@ -1,0 +1,11 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-right: 2.5rem;
+}
+@media (max-width: 56.25em) {
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+} ;

@@ -1,0 +1,92 @@
+.single-product {
+  display: flex;
+  gap: 3rem;
+  margin: 4rem 40rem 8rem 4rem;
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+.single-product img {
+  height: 30rem;
+  width: 40rem;
+}
+.product-info h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.description {
+  color: gray;
+}
+.product-info p {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+.products-price {
+  font-size: 1.3rem;
+}
+.rating-star {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+.rating-star h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.rating-star svg {
+  fill: #ffe300;
+}
+.products-price {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+.products-price span {
+  color: #7c7a7a;
+
+  text-decoration: line-through;
+  font-weight: lighter;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+.quantity {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1em;
+}
+.increase-btn,
+.decrease-btn {
+  border: 1px solid black;
+  font-size: 1.5rem;
+  padding: 0.1em 0.5em;
+  cursor: pointer;
+  background-color: transparent;
+}
+.quantity span {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.quantity h5 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.add-to-cart-btn {
+  font-size: 1.3rem;
+  padding: 1em;
+  background-color: #20262e;
+  color: #e9e8e8;
+  transition: 0.3s ease;
+  cursor: pointer;
+  width: 20rem;
+}
+.add-to-cart-btn:hover {
+  transform: scale(1.08);
+}
